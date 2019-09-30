@@ -1,4 +1,4 @@
-# GNT Yu 2.XX
+# GNT Yu 2.15
 
 > Here you can find an overview of the BeCode timeline. This repository will be updated gradually as the group progresses. 
 
@@ -6,7 +6,7 @@
 
 ## INDEX
 
-- [GNT Yu 2.XX](#gnt-yu-2xx)
+- [GNT Yu 2.15](#gnt-yu-215)
   - [INDEX](#index)
   - [The Field](#the-field)
     - [Your Environment](#your-environment)

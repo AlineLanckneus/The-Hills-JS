@@ -13,7 +13,7 @@ Since there is a whole lot of software available on the market, it is very impor
  
 ## Deadline
  
-01/10/2019 - 15:15
+01/10/2019 - 15:15 ==> revised deadline: 16:30
  
 ## Exercises
  

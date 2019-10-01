@@ -13,13 +13,13 @@ Since there is a whole lot of software available on the market, it is very impor
  
 ## Deadline
  
- 
+01/10/2019 - 15:15
  
 ## Exercises
  
  1. Search for different IDE's online
- 1. Think about the pros and cons of your chosen IDE and prepare a readme.md
- 1. Push that readme.md to a new repository, call it `IDE-research`
+ 1. Think about the pros and cons of your chosen IDE 
+ 1. Create a repository with a readme.md, call it `IDE-research`
  1. Make sure the repository is public (*)
  1. Make sure the readme has at least:
  	- A download link of the IDE

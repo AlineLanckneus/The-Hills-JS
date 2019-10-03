@@ -47,7 +47,7 @@
 
 |      | Topic          | Learning Challenge(s)                    | Consolidation Challenge(s)                             |
 | ---- | -------------- | ---------------------------------------- | ------------------------------------------------------ | 
-| 1.   | GIT            | [Intro to GIT](https://github.com/becodeorg/atw-lamarr-2-13/tree/master/1.The-Fields/2.Git) |   /    |
+| 1.   | GIT            | [Intro to GIT]() |   /    |
 | 2.   | HTML CSS       | / |/  |
 | 3.   | Responsive Webdesign  | / | /  | 
 | 4.   | CSS preprocessors| / | / | 

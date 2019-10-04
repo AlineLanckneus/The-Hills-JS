@@ -17,14 +17,14 @@
     - [JavaScript and the DOM](#javascript-and-the-dom)
     - [JavaScript 3: More JS](#javascript-3-more-js)
     - [Redline Project 2](#redline-project-2)
-  - [The mountain](#the-mountain)
+  - [The Mountain](#the-mountain)
     - [Node / Express](#node--express)
     - [PHP](#php)
     - [React (Front-end Framework)](#react-front-end-framework)
     - [Redline Project](#redline-project-1)
+  - [The Watch](./watch.md)
 
 ---
-
 
 
 ## The Field

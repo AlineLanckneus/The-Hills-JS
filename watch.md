@@ -45,7 +45,7 @@ When in doubt if something is suitable for the watch, check with your coach.
 |Friday    |15-11-19  |                    |Reinaert Depourcq   |
 |---       |---       |---                 |---                 |
 |Monday    |18-11-19  |                    |Danny	Eeraerts      |
-|Tuesday   |19-11-19  |                    |                    |
+|Tuesday   |19-11-19  |                    |Abdel Lahlali       |
 |Wednesday |20-11-19  |                    |                    |
 |Thursday  |21-11-19  |                    |                    |
 |Friday    |22-11-19  |                    |                    |

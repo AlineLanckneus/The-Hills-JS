@@ -1,0 +1,47 @@
+# About me
+
+- Repository: `about-me`  
+ 
+- Type of Challenge: `Learning`  
+  
+- Duration: `1 day`  
+  
+- Deployment strategy : repository on GitHub
+
+
+## Learning Objectives
+
+- convert plain text to semantic html
+- create a webpage with a structured html5 outline
+- find documentation on the available html tags
+- explain the use of the different html tags
+- check your html code with a validator
+
+## The Mission
+
+You will create a website about your journey in web development. Your website will have at least **2 pages**.
+One page where you describe the skills you learned and one page with your contact information (doesn't have to be real).
+
+### Must-have features
+
+- A working navigation
+- The same header and footer on each page
+- A page with an ``article`` for each skill you acquire
+- A contact page with a ``form`` to email you
+- A favicon 	
+
+### Miscellanous information
+
+There are a lot of [html elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) available, and each one has a specific function. Only use ``div`` as a last resort, as it adds no meaning to the content.
+
+## Deliverables
+1. Publish your source code on the GitHub repository.
+
+### Steps
+1. Create the repository both on GitHub and on your pc.
+3. Write out the text for your webpage.
+4. Convert the text to html
+5. Use an online validator to check your code
+
+
+

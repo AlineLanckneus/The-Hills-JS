@@ -48,7 +48,7 @@
 |      | Topic          | Learning Challenge(s)                    | Consolidation Challenge(s)                             |
 | ---- | -------------- | ---------------------------------------- | ------------------------------------------------------ | 
 | 1.   | GIT            | [Intro to GIT](/1.The-Field/2.Git/README.md) |   /    |
-| 2.   | HTML CSS       | [From text to web](/1.The-Field/3.HTML-CSS/1.Basics/1.Text-to-HTML.md) |/  |
+| 2.   | HTML CSS       | [From text to web](/1.The-Field/3.HTML-CSS/1.Basics/1.Text-to-HTML.md) - [About me](/1.The-Field/3.HTML-CSS/1.Basics/2.about-me.md) |/  |
 | 3.   | Responsive Webdesign  | / | /  | 
 | 4.   | CSS preprocessors| / | / | 
 | 5.   | CSS frameworks| / | / | 

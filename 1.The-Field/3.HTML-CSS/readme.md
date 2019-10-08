@@ -4,5 +4,5 @@
 
 - [Text to HTML](./1.Basics/1.Text-to-HTML.md)
 - [About me](./1.Basics/2.about-me.md)
-- [HTML and CSS](./1.Basics/3.HTML-and-CSS)
-- [More about me](./1.Basics/4.More-about-me)
+- [HTML and CSS](./1.Basics/3.HTML-and-CSS.md)
+- [More about me](./1.Basics/4.More-about-me.md)

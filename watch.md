@@ -4,6 +4,9 @@ The watch is a moment of 10 to 15 minutes, each day after the break, where you g
 
 When in doubt if something is suitable for the watch, check with your coach.
 
+You can post and see the subjects of the other people in the Ryver topic chat aswell.
+![](http://i.imgur.com/xm6wI18.png)
+
 ## The Watch Calendar
 
 |    Day   |   Date   |    Subject         |       	Name        |

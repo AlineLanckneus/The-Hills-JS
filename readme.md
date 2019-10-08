@@ -11,18 +11,6 @@
   - [The Field](#the-field)
     - [Your Environment](#your-environment)
     - [HTML/CSS/GIT](#htmlcssgit)
-    - [Redline Project](#redline-project)
-  - [The Hill](#the-hill)
-    - [JavaScript Basics](#javascript-basics)
-    - [JavaScript and the DOM](#javascript-and-the-dom)
-    - [JavaScript 3: More JS](#javascript-3-more-js)
-    - [Redline Project 2](#redline-project-2)
-  - [The Mountain](#the-mountain)
-    - [Node / Express](#node--express)
-    - [PHP](#php)
-    - [React (Front-end Framework)](#react-front-end-framework)
-    - [Redline Project](#redline-project-1)
-  - [The Watch](./watch.md)
 
 ---
 
@@ -48,7 +36,7 @@
 |      | Topic          | Learning Challenge(s)                    | Consolidation Challenge(s)                             |
 | ---- | -------------- | ---------------------------------------- | ------------------------------------------------------ | 
 | 1.   | GIT            | [Intro to GIT](/1.The-Field/2.Git/README.md) |   /    |
-| 2.   | HTML CSS       | [From text to web](/1.The-Field/3.HTML-CSS/1.Basics/1.Text-to-HTML.md) - [About me](/1.The-Field/3.HTML-CSS/1.Basics/2.about-me.md) |/  |
+| 2.   | HTML CSS       | [From text to web](/1.The-Field/3.HTML-CSS/1.Basics/1.Text-to-HTML.md) - [About me](/1.The-Field/3.HTML-CSS/1.Basics/2.about-me.md) - [HTML and CSS](/1.The-Field/3.HTML-CSS/1.Basics/3.HTML-and-CSS.md)| [More about me](/1.The-Field/3.HTML-CSS/1.Basics/4.More-about-me.md)  |
 | 3.   | Responsive Webdesign  | / | /  | 
 | 4.   | CSS preprocessors| / | / | 
 | 5.   | CSS frameworks| / | / | 

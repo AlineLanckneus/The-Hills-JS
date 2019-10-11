@@ -38,7 +38,7 @@ Grid:
 - [MDN docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
 - [Grid game](http://cssgridgarden.com/)
 
-- [this website](google.com)
+- [this website](http://www.google.com)
 
 Flexbox:
 
@@ -46,7 +46,7 @@ Flexbox:
 - [MDN docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
 - [Flexbox game](https://flexboxfroggy.com/)
 
-- [this website](google.com)
+- [this website](http://www.google.com)
 
 
 ## Deliverables

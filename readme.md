@@ -42,6 +42,7 @@
 | 4.   | CSS preprocessors| [SASS](/1.The-Field/5.CSS-Preprocessors/SASS.md) | / | 
 | 5.   | CSS frameworks| [Bootstrap](/1.The-Field/6.CSS-Frameworks/README.md) | / | 
 | 6.   | UX / UI| / | / | 
+| 7.   | Static website | / | [Business page](/1.The-Field/8.Final-test/readme.md) | 
 
 
 **Goals**

@@ -53,6 +53,8 @@ Don't have any inspiration and just want to focus on your code? Our resident web
 
 - Do the best you can until you know better. Then when you know better, do better.
 
+- Have fun!
+
 
 ## Instructions 
 

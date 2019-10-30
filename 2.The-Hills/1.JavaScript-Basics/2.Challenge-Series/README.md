@@ -16,7 +16,8 @@ Each exercise must be done.
 #### Local server
 
 Some exercises may require running the code on a _local server_.  
-This is a good practice that should always be applied. I recommend that you install[node.js](https://nodejs.org/en/) on your machine, then install [**sèvè**](https://github.com/leny/seve), a small utility that generates a local server from your command line.
+
+This is a good practice that should always be applied. I recommend that you install [node.js](https://nodejs.org/en/) on your machine, then install [**sèvè**](https://github.com/leny/seve), a small utility that generates a local server from your command line.
 
 ## Resources
 
@@ -26,7 +27,7 @@ To get the most out of these exercises, some useful resources:
 - [Solo Learn - Javascript](https://www.sololearn.com/Course/JavaScript/) :uk:
 - [Sabe - Javascript](https://sabe.io/classes/javascript) :uk:
 - [Mozilla Javascript Guide](https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Apropos) :uk: :fr:
-- [jsfiddle](https://jsfiddle.net/) - to test your js codes
+- [jsfiddle](https://jsfiddle.net/) - to test your js code
 - [learn x in y minutes](https://learnxinyminutes.com/docs/javascript/)
 - [learn js](http://www.learn-js.org/)
 - [10 js array methods](https://dev.to/frugencefidel/10-javascript-array-methods-you-should-know-4lk3)

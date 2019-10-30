@@ -11,6 +11,8 @@
   - [The Field](#the-field)
     - [Your Environment](#your-environment)
     - [HTML/CSS/GIT](#htmlcssgit)
+  - [The Hill](#the-hill)
+    - [JavaScript Basics](#javascript-basics)
   - [The Watch](./watch.md)
 
 ---
@@ -57,3 +59,21 @@
 - Feel comfortable working with your browser's inspector
 - Know what a CSS framework is
 - Create a clean simple onepage interface
+
+## The Hill
+
+### JavaScript Basics
+
+> You now know how to display data with HTML and how to style it with CSS. But there are limits to what you can do with just HTML and CSS.
+> Next we will dive into the world of JavaScript to make your websites dynamic.
+
+|      | Topic          | Learning Challenge(s)                    | Consolidation Challenge(s)                                |
+| ---- | -------------- | ---------------------------------------- | ------------------------------------------------------ | 
+| 1.   | Statements vs. Expressions, Control flow, Loops, Operators, Conditional statements ...  | [Read Fix Write](./2.The-Hills/1.JavaScript-Basics/1.Read-Fix-Write/README.md) | [Challenge Series](./2.The-Hills/1.JavaScript-Basics/2.Challenge-Series/README.md) |
+
+**Goals**
+
+- Know the basic building blocks of JavaScript
+- Correctly write and use variables, functions and loops
+- ES6+
+- ...

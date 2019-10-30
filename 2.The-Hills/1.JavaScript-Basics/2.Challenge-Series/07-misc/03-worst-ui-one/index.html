@@ -1,0 +1,51 @@
+<!--
+ * becode/javascript
+ *
+ * /07-misc/03-worst-ui-one/index.html - 7.3: la pire interface (1) : phone slider
+ *
+ * coded by leny@BeCode
+ * started at 26/10/2018
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>BeCode/JavaScript - 7.3: worst user interface (1) : phone slider</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+    <link rel="stylesheet" href="../../_shared/css/normalize.css" />
+    <link rel="stylesheet" href="../../_shared/css/styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>BeCode / JavaScript</h1>
+            <h2>
+                <span>7.3</span>
+                <strong>worst user interface (1) : phone slider</strong>
+            </h2>
+        </header>
+        <div class="content">
+            <section class="explain">
+                <p>An exercise in creating the worst possible user interface for dialing a phone number: use the value
+                    of the slider to show the phone number (with a leading 0) in the target paragraph (from 0460000000
+                    to 0499999999).</p>
+            </section>
+            <section class="material">
+                <p id="target">0460000000</p>
+                <form action="#" method="post">
+                    <div class="field full">
+                        <input type="range" min="460000000" max="499999999" value="460000000" id="slider"
+                            name="slider" />
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

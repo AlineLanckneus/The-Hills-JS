@@ -1,0 +1,48 @@
+<!--
+ * becode/javascript
+ *
+ * /07-misc/07-storage-clicker/index.html - 7.7: jeu : clicker persistant
+ *
+ * coded by leny@BeCode
+ * started at 26/10/2018
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>BeCode/JavaScript - 7.7: storage clicker</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+    <link rel="stylesheet" href="../../_shared/css/normalize.css" />
+    <link rel="stylesheet" href="../../_shared/css/styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>BeCode / JavaScript</h1>
+            <h2>
+                <span>7.7</span>
+                <strong>storage clicker</strong>
+            </h2>
+        </header>
+        <div class="content">
+            <section class="explain">
+                <p>When you click the button, increment the counter by 1 and display the new value in the target
+                    paragraph. Use <strong>localStorage</strong> to save the counter, and to read the counter value (and
+                    display it) when the page is reloaded.</p>
+            </section>
+            <section class="material">
+                <p id="target" class="counter">0</p>
+                <div class="actions">
+                    <button type="button" id="increment">Increment and store</button>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

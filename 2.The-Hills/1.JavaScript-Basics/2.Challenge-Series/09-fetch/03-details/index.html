@@ -1,0 +1,61 @@
+<!--
+ * becode/javascript
+ *
+ * /09-fetch/03-details/index.html - 11.3: details
+ *
+ * coded by leny@BeCode
+ * started at 12/05/2019
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>BeCode/JavaScript - 11.3: details</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+    <link rel="stylesheet" href="../../_shared/css/normalize.css" />
+    <link rel="stylesheet" href="../../_shared/css/styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>BeCode / JavaScript</h1>
+            <h2>
+                <span>11.3</span>
+                <strong>details</strong>
+            </h2>
+        </header>
+        <div class="content">
+            <section class="explain">
+                <p>When you click on the button, get the id from the form, then get the corresponding X-Men from the API and display it in the tag whose id is "target". Use the tag <strong>template</strong> to reproduce a suitable html structure.</p>
+            </section>
+            <section class="material">
+                <form action="#" method="post">
+                    <div class="field">
+                        <label for="hero-id">Id of the hero:</label>
+                        <input type="text" name="hero-id" id="hero-id" />
+                    </div>
+                    <div class="actions">
+                        <button type="button" id="run">Run the script</button>
+                    </div>
+                </form>
+                <template id="tpl-hero">
+                        <li class="hero">
+                            <h4 class="title">
+                                <strong class="name"></strong>
+                                <em class="alter-ego"></em>
+                            </h4>
+                            <p class="powers"></p>
+                        </li>
+                    </template>
+                <ol id="target"></ol>
+            </section>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

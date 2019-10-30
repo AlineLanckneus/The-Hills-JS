@@ -1,0 +1,57 @@
+<!--
+ * becode/javascript
+ *
+ * /06-dom/09-match-password-one/index.html - 6.9: vérification de mots de passe (1)
+ *
+ * coded by leny@BeCode
+ * started at 26/10/2018
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>BeCode/JavaScript - 6.9: password verification (1)</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+    <link rel="stylesheet" href="../../_shared/css/normalize.css" />
+    <link rel="stylesheet" href="../../_shared/css/styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>BeCode / JavaScript</h1>
+            <h2>
+                <span>6.9</span>
+                <strong>password verification (1)</strong>
+            </h2>
+        </header>
+        <div class="content">
+            <section class="explain">
+                <p>When you click the button, check whether the two passwords entered in the input fields are
+                    <em>exactly</em> the same. If they are not, change the border color of the input boxes to be red.
+                </p>
+            </section>
+            <section class="material">
+                <form action="#" method="post">
+                    <div class="field">
+                        <label for="pass-one">Password:</label>
+                        <input type="text" name="pass-one" id="pass-one" />
+                    </div>
+                    <div class="field">
+                        <label for="pass-two">Re-enter password:</label>
+                        <input type="text" name="pass-two" id="pass-two" />
+                    </div>
+                    <div class="actions">
+                        <button type="button" id="run">Run the script</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

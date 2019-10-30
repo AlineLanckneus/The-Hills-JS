@@ -1,0 +1,47 @@
+<!--
+ * becode/javascript
+ *
+ * /10-asynchronous/05-promise-get-comments/index.html - 10.5: chargement d'articles et de commentaires (Promise)
+ *
+ * coded by leny@BeCode
+ * started at 09/05/2019
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>BeCode/JavaScript - 10.5: Get posts and comments (Promise)</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+        <link rel="stylesheet" href="../../_shared/css/normalize.css" />
+        <link rel="stylesheet" href="../../_shared/css/styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>BeCode / JavaScript</h1>
+                <h2>
+                    <span>10.5</span>
+                    <strong>Get posts and comments (Promise)</strong>
+                </h2>
+            </header>
+            <div class="content">
+                <section class="explain">
+                    <p>You must have noticed, in the previous exercise, that the articles received via the window.lib.getPosts function included an id property.</p>
+                    <p>The function window.lib.getComments() is available in the script. It must receive an article id as a parameter, and returns a Promise that will be resolved, after a short delay, with the article's comments.</p>
+                    <p>When you click on the button, call the getPosts function. For each recovered item, calls the getComments function and adds the comments obtained in a comments property of the item. Displays items in the console (getPosts and getComments functions will always be solved without errors).</p>
+                </section>
+                <section class="material">
+                    <div class="actions">
+                        <button type="button" id="run">Run the script</button>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <script src="../../_shared/lib/utils.js"></script>
+        <script src="../../_shared/lib/promises.js"></script>
+        <script src="./script.js"></script>
+    </body>
+</html>
+

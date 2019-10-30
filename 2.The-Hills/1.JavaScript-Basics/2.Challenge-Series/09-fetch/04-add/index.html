@@ -1,0 +1,63 @@
+<!--
+ * becode/javascript
+ *
+ * /09-fetch/04-add/index.html - 11.4: ajouter un élément
+ *
+ * coded by leny@BeCode
+ * started at 12/05/2019
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>BeCode/JavaScript - 11.4: Add an element</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+    <link rel="stylesheet" href="../../_shared/css/normalize.css" />
+    <link rel="stylesheet" href="../../_shared/css/styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>BeCode / JavaScript</h1>
+            <h2>
+                <span>11.4</span>
+                <strong>Add an element</strong>
+            </h2>
+        </header>
+        <div class="content">
+            <section class="explain">
+                <p>When you click on the button, retrieve the values of the form and create the new hero in the API.
+                    <br />Each field must be filled in (it is up to you to manage). </p>
+                <p>Display the result of all your heroes in the console. </p>
+                <p><strong>Caution: </strong> powers must be stored in the same format as the previous heroes!</p>
+                <p>You do not have to update the JSON file, it is oké that when you refresh the page you lose the newly added heroes.</p>
+            </section>
+            <section class="material">
+                <form action="#" method="post">
+                    <div class="field dob">
+                        <label for="hero-name">Name:</label>
+                        <input type="text" name="name" id="hero-name" />
+                    </div>
+                    <div class="field dob">
+                        <label for="hero-alter-ego">Alter-Ego:</label>
+                        <input type="text" name="alter-ego" id="hero-alter-ego" />
+                    </div>
+                    <div class="field dob">
+                        <label for="hero-powers">Power:</label>
+                        <input type="text" name="powers" id="hero-powers" />
+                    </div>
+                    <div class="actions">
+                        <button type="button" id="run">Run the script</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -49,6 +49,15 @@ const parseMovieData = movie =>
   wrapWithTag(movie.year, `p`) +
   wrapWithTag(movie.director, `p`);
 
+  /*
+  Return is used to pass something out of the function to the code that called it 
+  (generally speaking). Therefore in a function that doesn't need to pass anything back, such as removeEvent which is simply modifying the state of something else, it's not necessary.
+  
+  You only need to declare return when you want the function to have an actual return value, whether it be a string, boolean, object, function, etc. If the function operates on something else, like adding an event handler or adding properties to something else, the return value is not needed. 
+  You could return this to be able to chain the method.
+  */
+
+
 const createList = movies => {
   return `<ul>${movies
     .map(movie => wrapWithTag(parseMovieData(movie), `li`))
@@ -57,3 +66,8 @@ const createList = movies => {
 };
 
 document.write(createList(movies));
+
+/*parseMovieData is wrapping each property-value  (title, year and director) of the movies object
+in <p> tags 
+createList is then wrapping each of these in <li> tags
+creating an unordered list */

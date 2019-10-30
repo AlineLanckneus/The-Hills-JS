@@ -24,10 +24,8 @@ const parseTitle = title => {
 
 const createList = movies => {
   return `
-    <ol>${movies
-      .map(movie => parseTitle(movie))
-      .map(movie => wrapWithTag(movie, `li`))
-      .join(``)}
+    <ol>
+    ${movies.map(movie => parseTitle(movie)).map(movie => wrapWithTag(movie, `li`)).join(``)}
     </ol>`;
 };
 

@@ -64,7 +64,8 @@ const shows = [
 
 const wrapWithTag = (content, tagname) => `<${tagname}>${content}</${tagname}>`;
 
-const topScoreFilter = show => { };
+const topScoreFilter = shows => { 
+  shows.filter();
 
 shows.filter(topScoreFilter);
 

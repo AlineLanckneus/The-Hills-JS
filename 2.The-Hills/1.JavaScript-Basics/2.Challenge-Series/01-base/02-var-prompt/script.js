@@ -12,5 +12,9 @@
 (function() {
 
     // your code here
+    let promptMessage = prompt("Hey you! What is your name?");
+    if(promptMessage !== null){
+        alert("Hi " + promptMessage);
+    }
 
 })();

@@ -28,3 +28,6 @@ p{
   font-size:2rem;
   padding:.5rem 0;
 }
+th,td{
+  font-size: 2rem;
+}

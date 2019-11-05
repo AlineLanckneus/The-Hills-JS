@@ -1,5 +1,5 @@
 
-const listOscarWinners = [
+let listOscarWinners = [
     {
         actor: "Forest Whitaker",
         film: "The Last King of Scotland",
@@ -43,8 +43,35 @@ const listOscarWinners = [
     }
 ];
 
-const actor = listOscarWinners['actor'];
 
-listOscarWinners.forEach(actor => {
-    
+listOscarWinners.forEach((prop) => console.log(prop.actor));
+
+//listOscarWinners.forEach((prop) => document.write(`<ul><li>${prop.actor}</li></ul>`));
+
+document.write(`<ol>`);
+for (i = 0; i < listOscarWinners.length; i++) {
+    document.write(`<li>${listOscarWinners[i]['actor']}</li>`);
+}
+document.write(`</ol>`);
+
+
+document.write(`<h1>Sorted by age</h1>`);
+
+
+listOscarWinners.sort((a, b) => {
+    if (a['age'] > b['age']) {
+        return 1
+    } else {
+        return -1
+    }
 });
+
+document.write(`<ol>`);
+for (i = 0; i < listOscarWinners.length; i++) {
+    document.write(`<li>${listOscarWinners[i]['actor']}</li>`);
+}
+document.write(`</ol>`);
+
+let total = 0;
+listOscarWinners.forEach(prop => total += prop['age']);
+console.log(total);

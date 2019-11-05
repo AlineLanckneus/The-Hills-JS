@@ -13,6 +13,14 @@ function test() {
     return true;
 }
 
+let add = document.getElementById("addition");
+let sub = document.getElementById("substraction");
+let mul = document.getElementById("multiplication");
+let div = document.getElementById("division");
+
+let numOne = document.getElementById("op-one").value;
+let numTwo =  document.getElementById("op-two").value;
+
 (function() {
     return true;
 })();

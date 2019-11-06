@@ -8,14 +8,18 @@
 
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
-        
+/*let red = document.getElementById("red");
+let green = document.getElementById("green");
+let yellow = document.getElementById("yellow");
+let blue = document.getElementById("blue");
+*/
 
+const changeColor = (id) => {
+    document.body.style.background = id;
+    };
 
-(function () {
-
-
-
+    
     // your code here
-})();
 
-
+document.querySelector("button").addEventListener("click", changeColor);
+//let body = document.body.addEventListener("click", changeColor);

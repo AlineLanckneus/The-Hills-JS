@@ -15,17 +15,21 @@
     let age = prompt("What is your age?");
     let gender = prompt("What is your gender?");
     let town = prompt("In which town do you currently live?");
-
-
     let txt = alert(`Age: ${age} Gender: ${gender} Town: ${town}`);
     //let txt2 = alert("Please try again");
+
     let r = confirm("Please press the ok button to confirm");
-    if (r === true){
+
+    if (r === true) {
         if(age && gender && town !== null){ 
         txt();
+    } else if (r === false) {
+        input();
     } else {
         input();
     }
-    };
+    };//end first if loop
 
 })();
+
+input();

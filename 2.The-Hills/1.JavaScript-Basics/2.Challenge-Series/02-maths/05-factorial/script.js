@@ -8,6 +8,8 @@
 
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
+let n;
+let result;
 
 (function() {
     
@@ -16,7 +18,18 @@
     document.getElementById("run").addEventListener("click", function() {
 
         // your code here
-
+        function factorial(n){
+            if (n === 0) {
+                return 1;
+            }
+            else {
+                return n * factorial(n - 1);
+            }
+        ;}
+        result = factorial(document.getElementById("number").value);
+        document.getElementById("number").value = result;
     });
 
 })();
+
+//inspiration found here: https://www.geeksforgeeks.org/factorial-of-a-number-using-javascript/

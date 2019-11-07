@@ -9,7 +9,7 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+const randomFruit = function() {
 
     var fruits = [
         "apple",
@@ -26,6 +26,10 @@
         "cherry",
     ];
 
-    // your code here
+    let fruit4 = fruits[3];
+    console.log(fruit4);
+};
 
-})();
+document.getElementById("run").addEventListener("click", function(){
+    randomFruit();
+});

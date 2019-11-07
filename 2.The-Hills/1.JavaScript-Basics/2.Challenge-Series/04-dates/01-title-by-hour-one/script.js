@@ -8,11 +8,21 @@
 
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
+//document.getElementById("target").innerHTML = "Hi";
 
-(function() {
+//console.log(h);
 
-    // to change the content of a tag: document.getElementById("element-id").innerHTML = "new-value"
+const greeting = function(){ 
 
-    // your code here
+    let d = new Date();
+    let h = d.getHours(); //(0-24)
+    //let target = document.getElementById("target").innerHTML;
 
-})();
+        if(h <= 18){
+            document.getElementById("target").innerHTML = "Hello";
+        } else if(h > 18 && h < 24) {
+            document.getElementById("target").innerHTML = "Good evening";
+        }
+    };//end of greeting function
+
+greeting();

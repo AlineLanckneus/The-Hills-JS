@@ -9,7 +9,7 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+/*const loopFruits = function() {
 
     var fruits = [
         "apple",
@@ -24,8 +24,31 @@
         "peache",
         "grap",
         "cherry",
+    ];*/
+    var fruits = [
+        "apple",
+        "pear",
+        "raspberry",
+        "tomatos",
+        "kiwi",
+        "banana",
+        "orange",
+        "mandarin",
+        "durian",
+        "peache",
+        "grape",
+        "cherry",
     ];
+    var i = 0;
 
-    // your code here
+    function nextItem() {
+        console.log(fruits[i]);
+        i = i + 1;
+        i = i % fruits.length;
+        //console.log(fruits[i]);
+    }
+//};
 
-})();
+document.getElementById("run").addEventListener("click", function(){
+    nextItem();
+});

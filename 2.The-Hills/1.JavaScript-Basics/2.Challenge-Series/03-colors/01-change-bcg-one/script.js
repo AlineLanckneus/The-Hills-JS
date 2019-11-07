@@ -14,12 +14,21 @@ let yellow = document.getElementById("yellow");
 let blue = document.getElementById("blue");
 */
 
-const changeColor = (id) => {
-    document.body.style.background = id;
-    };
+//first option
+//const changeColor = (id) => {
+    //document.body.style.background = id;
+    //};
 
     
     // your code here
 
-document.querySelector("button").addEventListener("click", changeColor);
+//document.querySelector("button").addEventListener("click", changeColor);
 //let body = document.body.addEventListener("click", changeColor);
+
+//second option
+
+function changeBgc(color){
+    document.body.style.backgroundColor = color;
+};
+
+//both work!

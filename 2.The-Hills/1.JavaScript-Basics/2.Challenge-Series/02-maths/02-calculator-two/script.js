@@ -9,18 +9,44 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-function test() {
-    return true;
-}
 
-let add = document.getElementById("addition");
-let sub = document.getElementById("substraction");
-let mul = document.getElementById("multiplication");
-let div = document.getElementById("division");
 
-let numOne = document.getElementById("op-one").value;
-let numTwo =  document.getElementById("op-two").value;
+// let add = document.getElementById("addition");
+// let sub = document.getElementById("substraction");
+// let mul = document.getElementById("multiplication");
+// let div = document.getElementById("division");
+(function(){
 
-(function() {
-    return true;
+const a = parseInt(document.getElementById("op-one").value);
+const b = parseInt(document.getElementById("op-two").value);
+
+
+const calculator = function (op) {
+        switch (op) {
+
+            case "addition": console.log(a + b);
+                
+                break;
+            case "substraction": console.log(a - b);
+                
+                break;
+            case "multiplication": console.log(a * b);
+                
+                break;
+            case "division": console.log(a / b);
+                
+                break;
+        
+            default: console.log("fail");
+            
+        }
+};
+
+Array.from(document.querySelectorAll("button.operator")).forEach(function(op2){
+    op2.addEventListener("click", function(){
+        calculator(this.id);
+        console.log(this.id);
+    })
+});
+
 })();

@@ -12,8 +12,7 @@
 //let randomNumber = Math.floor(Math.random()*101);
 
 let maxLength = 100;
-
-//console.log(randomNumber);
+let newArray = [];
 
 function random(){ 
     return Math.floor(Math.random()*101);
@@ -23,9 +22,17 @@ function table(){
     for (let i = 1; i < maxLength; i++) {
         number = "cell" + i;
         document.getElementById(number).innerHTML = random();
+    }
+        for (let i = 0; i < maxLength; i++) {
+            let randoNum = document.getElementById(number).innerHTML = random();
+            newArray.push(randoNum);
+            console.log(newArray[i]);
+            
+        
         
     }
 }
+
 
 document.getElementById("run").addEventListener("click", function(){
     table();

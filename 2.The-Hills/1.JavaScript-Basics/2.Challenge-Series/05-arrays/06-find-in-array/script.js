@@ -9,7 +9,7 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+const findJean = function(){ 
 
     var people = [
         {
@@ -88,7 +88,27 @@
             email: "gkeatche@google.fr",
         },
     ];
+    /*
+    The Array.find() is an inbuilt function in JavaScript which is used to get the value of the first element in the array that satisfies the provided condition.
+    It checks all the elements of the array and whichever the first element satisfies the condition is going to print.*/
+    people.find(function(person){
+        if (person.firstname == "Jean" && person.lastname == "Dupont"){
+            let jd = person.email;
+            console.log(jd);
+        }
+    });
 
-    // your code here
+    let index = people.findIndex(p => p.firstname === "Jean")
+    console.log(index);
+    //declare variable index
+    //findIndex method on array people with following condition
+    //p equals one item in array, find the index of the first item that
+    //has a first name equal to "Jean"
+    //log that index number
+};
 
-})();
+
+
+document.getElementById("run").addEventListener("click", function(){
+    findJean();
+});

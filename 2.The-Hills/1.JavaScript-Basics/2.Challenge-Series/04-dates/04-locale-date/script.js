@@ -12,5 +12,10 @@
     // to change the content of a tag: document.getElementById("element-id").innerHTML = "new-value"
 
 let d = new Date();
+var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric' };
+let n = d.toLocaleDateString('en-EN', options);
 
-document.getElementById("target").innerHTML = d;
+
+document.getElementById("target").innerHTML = n;
+
+//https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString

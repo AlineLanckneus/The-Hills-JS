@@ -9,7 +9,6 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
 
     var people = [
         {
@@ -89,6 +88,22 @@
         },
     ];
 
-    // your code here
+//var new_array = arr.filter(callback[, thisArg])
 
-})();
+//first declare a simple function that you will use
+//as a condition with .filter()
+
+function older(person){
+    if(person['age'] > 18){
+        return person;
+    }
+};
+//declare new variable to assign the new filtered array to
+//perform the filter method with your function above as condition w/o parentheses
+
+var filtered = people.filter(older);
+console.log(filtered);
+
+document.getElementById("run").addEventListener("click", function(){
+    older();
+});

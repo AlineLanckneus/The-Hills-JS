@@ -9,7 +9,7 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+const peoplezz = function() {
 
     var people = [
         {
@@ -38,7 +38,16 @@
             email: "mcoal4@creativecommons.org",
         },
     ];
+    
 
-    // your code here
+    people.forEach(function(person) { 
+        
+        console.log(person.firstname, person.lastname)
+        
+        });
 
-})();
+    };
+
+
+document.getElementById("run").addEventListener("click", function(){
+    peoplezz()});

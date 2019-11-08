@@ -9,7 +9,7 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+
 
     var fruits = [
         "apple",
@@ -26,6 +26,16 @@
         "cherry",
     ];
 
-    // your code here
+//The includes() method determines whether an array includes a certain element, 
+//returning true or false as appropriate.
 
-})();
+function includesApple(){
+    if(fruits.includes("apple")){
+        console.log("Yes")
+    } else {
+        console.log("Nope");
+    }
+}
+document.getElementById("run").addEventListener("click", function(){
+    includesApple();
+});

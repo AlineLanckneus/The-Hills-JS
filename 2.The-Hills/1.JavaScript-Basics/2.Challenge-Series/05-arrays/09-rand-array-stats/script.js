@@ -9,8 +9,24 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+//let randomNumber = Math.floor(Math.random()*101);
 
-    // your code here
+let maxLength = 100;
 
-})();
+//console.log(randomNumber);
+
+function random(){ 
+    return Math.floor(Math.random()*101);
+}
+
+function table(){
+    for (let i = 1; i < maxLength; i++) {
+        number = "cell" + i;
+        document.getElementById(number).innerHTML = random();
+        
+    }
+}
+
+document.getElementById("run").addEventListener("click", function(){
+    table();
+});

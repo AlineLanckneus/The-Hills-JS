@@ -9,8 +9,28 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+var tbl = document.createElement("table");
+var tbody = document.createElement("tbody");
+var rows = 11;
+var cols = 11;
+var output;
 
-    // your code here
+function tableCreate(){
 
-})();
+    for (let i = 1; i < rows; i++) {
+        var row = tbl.insertRow();
+        
+        for (let j = 1; j < cols; j++) {
+            
+            var col = row.insertCell();
+            col.innerHTML =  i * j;
+            row.appendChild(col);
+        }
+        tbody.appendChild(row);
+    };
+    tbl.appendChild(tbody);
+    document.getElementById("target").appendChild(tbl);
+    
+};
+
+tableCreate();

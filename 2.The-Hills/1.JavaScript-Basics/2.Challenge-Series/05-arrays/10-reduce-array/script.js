@@ -97,7 +97,7 @@ function getTotalAge() {
     }, 0);//0 is initialValue
     console.log(totalAge);
 };
-//In ES6: const msgTotal = accounts.reduce((prev, cur) => prev + cur.msgCount, 0);
+//In ES6: const totalAge = people.reduce((prev, cur) => prev + cur.age, 0);
 
 document.getElementById("run").addEventListener("click", function(){
     getTotalAge();

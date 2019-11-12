@@ -9,7 +9,7 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+
 
     var people = [
         {
@@ -89,6 +89,18 @@
         },
     ];
 
-    // your code here
+//syntax: arr.reduce(callback(accumulator, currentValue[, index[, array]])[, initialValue])
 
-})();
+function getTotalAge() {
+    let totalAge = people.reduce(function(prev, cur) {
+        return prev + cur.age;
+    }, 0);//0 is initialValue
+    console.log(totalAge);
+};
+//In ES6: const msgTotal = accounts.reduce((prev, cur) => prev + cur.msgCount, 0);
+
+document.getElementById("run").addEventListener("click", function(){
+    getTotalAge();
+});
+
+getTotalAge();

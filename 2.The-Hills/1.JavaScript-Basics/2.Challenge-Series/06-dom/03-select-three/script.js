@@ -9,8 +9,13 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+function ble(){
 
-    // your code here
+    var items = document.getElementsByClassName("target");
 
-})();
+    for (let i = 0; i < items.length; i++) {
+    items[i].innerHTML = "owned!";
+    };
+};
+
+ble();

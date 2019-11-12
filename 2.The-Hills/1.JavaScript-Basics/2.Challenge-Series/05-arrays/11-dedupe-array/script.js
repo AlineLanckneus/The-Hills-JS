@@ -9,7 +9,6 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
 
     var fruits = [
         "cerise",
@@ -29,5 +28,16 @@
     ];
 
     // your code here
-
-})();
+function removeDuplis(){ 
+let result = fruits.sort().reduce((prev, cur) => {
+    const length = prev.length;
+    if(length === 0 || prev[length - 1] !== cur) {
+        prev.push(cur);
+    }
+    return prev;
+}, []);
+console.log(result);
+};
+document.getElementById("run").addEventListener("click", function(){
+    removeDuplis();
+});

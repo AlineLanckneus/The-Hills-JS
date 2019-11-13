@@ -5,11 +5,11 @@
  * coded by leny@BeCode
  * started at 08/05/2019
  */
+//https://medium.com/codebuddies/getting-to-know-asynchronous-javascript-callbacks-promises-and-async-await-17e0673281ee
 
 (() => {
     const setupIntervalMessage = (label, delay) => {
         let count = 0;
-
         return setInterval(() => console.log(`${label}:`, ++count), delay);
     };
 

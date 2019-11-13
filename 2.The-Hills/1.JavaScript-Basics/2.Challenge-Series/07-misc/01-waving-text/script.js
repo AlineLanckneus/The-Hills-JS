@@ -13,19 +13,9 @@
 //divide this text into 5 parts and give each part a bigger font size from lef to right
 
 let text = document.getElementById("target").textContent;
-
 console.log(text);
+console.log(typeof text);
 console.log(text.length);
 
-let one = text.substr(0,7);
-one = toString(one);
-console.log(one);
-
-let two = text.substr(8,13);
-console.log(two);
-let three = text.substr(14,21);
-console.log(three);
-let four = text.substr(22,29);
-console.log(four);
-let five = text.substr(30,45);
-console.log(five);
+text.split(" ");
+console.log(text);

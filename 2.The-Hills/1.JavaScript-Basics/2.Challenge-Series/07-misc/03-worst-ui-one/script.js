@@ -6,11 +6,12 @@
  * started at 26/10/2018
  */
 
-// NOTE: don't focus on the existing code structure for now.
-// You will have time to focus on it later.
+var slider = document.getElementById("slider");
+slider.onchange = function showSliderValue(){ //need an eventlistener to be able to update the output whenever range input is changed
+    //without event listener function would only execute once at startup
+var sliderValue = document.getElementById("slider").value;
+document.getElementById("target").innerHTML = `0${sliderValue}`;
+console.log(sliderValue);
+};
 
-(function() {
-
-    // your code here
-
-})();
+showSliderValue();

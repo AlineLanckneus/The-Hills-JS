@@ -9,8 +9,15 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
 
-    // your code here
+    var i = 0;
+    function counter()
+    {
+        document.getElementById("target").innerHTML = ++i;
+    };
 
-})();
+    localStorage.setItem("count", "i");
+    
+    document.getElementById("increment").addEventListener("click", function(){
+    counter();
+    });

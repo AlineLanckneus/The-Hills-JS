@@ -9,13 +9,11 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-var img = document.getElementById("source").getAttribute("data-image");
-console.log(img);
+var link = document.getElementById("source").getAttribute("data-image");
+console.log(link);
 
-let target = document.getElementById("target");
+document.getElementById("target").innerHTML = `<img src=${link}></img>`;
+document.getElementById("target").removeAttribute("source");
 
 
 
-let newChild = document.createElement("img");//.setAttribute("data-image", img);
-
-target.appendChild(newChild);

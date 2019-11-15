@@ -9,6 +9,11 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(() => {
-    // your code here
-})();
+document.getElementById("run").addEventListener("click", function(){
+    window.lib.getPersons(function(error, array){
+        if(array){
+            console.log(array);}
+        else{console.error(error);}
+        
+     })
+})
